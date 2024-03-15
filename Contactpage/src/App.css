@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  font-family: open sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.list{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+  padding: 0 8px;
+}
+.logo img{
+  height: 40px;
+  width: 40px;
+}
+li{
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.main{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.heading h1{
+  font-size: 40px;
+  margin-top: 60px;
+}
+.heading p{
+  font-family: 'Poppins' sans-serif;
+  font-size: 15px;
+  color: gray;
+  font-weight: 500;
+  
+  
+
+}
+.btn button img{
+  height: 10px;
+  width: 10px;
+
+  
+}
+.btn button{
+  color: white;
+  background-color: black;
+}
